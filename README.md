@@ -5,6 +5,13 @@ Mojo explorations around benchmarking and tiling
 
 Code is based off of the Puzzle 14 solutions here: https://github.com/modular/mojo-gpu-puzzles/blob/main/problems/p14/p14.mojo
 
+## Summary
+
+Two things were accomplished
+
+1.  Learned how to perform benchmarking on mojo code
+2.  Investigated running code without barrier() and synchronize() calls which resulted in correct results for up to 10K runs
+
 ### === p14_benchmarking.mojo - p14 with benchmarking added. 
 
 $ mojo p14.mojo --naive
